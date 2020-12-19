@@ -19,6 +19,16 @@ Example of HTML tags before code refactor:
 Example of HTML tags after code refactor: 
 ![Semantic HTML after code was refactored](./assets/images/Semantic_HTML_After_Refactor.png)
 
+...
+<!-- This section contains the primarly articles on the page, which appear on the left side of the page.  -->
+        <section class="content">
+            <article id="search-engine-optimization" class="search-engine-optimization">
+                <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A photo of a laptop, a cup of coffee, colored pencils, and a notebook with SEO ideas." />
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                </p>
+...
 
 2. Text
 3. Comments were added to both the index.html and style.css files to help future developers better understand the structure of the files and how the elements referenced within each are used.
