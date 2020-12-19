@@ -14,6 +14,8 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
 
 ## Example Image
 Following is an image of the Horiseon's homepage. 
+![Horiseon Homepage](./assets/images/Horiseon-Homepage.png)
+Format: ![Horiseon Homepage](url)
 
 ## Location
 Use the following link to access the company's refactored website. 
