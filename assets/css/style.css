@@ -75,11 +75,13 @@ p {
 	color: #ffffff;
 }
 
+/* This element controls the appearance of all h2 headings within the section that is denoted with a Content class. */
 .content h2 {
 	margin-bottom: 20px;
 	font-size: 36px;
 }
 
+/* The next three references control the position of the images within the Content articles.  */
 .search-engine-optimization img {
 	max-height: 200px;
 	float: left;
@@ -108,21 +110,11 @@ p {
 	height: 100%;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	background-color: #2589bd;
-}
-
-.benefit-lead {
-	margin-bottom: 32px;
 	color: #ffffff;
 }
 
-.benefit-brand {
+.benefits p {
 	margin-bottom: 32px;
-	color: #ffffff;
-}
-
-.benefit-cost {
-	margin-bottom: 32px;
-	color: #ffffff;
 }
 
 .benefit-lead h3 {
