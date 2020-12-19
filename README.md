@@ -12,10 +12,7 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
 ## Solution
 
 ## Location
-Use the following link to access the company's refactored website.
-
-https://larrygjenkins.github.io/HoriseonRefactor/ - automatic!
-[Horiseon Homepage](https://larrygjenkins.github.io/HoriseonRefactor/)
+Use the following link to access the company's refactored website: [Horiseon Homepage](https://larrygjenkins.github.io/HoriseonRefactor/)
 
 ## Example Image
 Following is an image of the Horiseon's homepage:
