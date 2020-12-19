@@ -10,6 +10,18 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
 5. The site lacks a descriptive title.
 
 ## Solution
+1. Text
+
+Example of HTML tags before code refactor: 
+![Non-Semantic HTML before code was refactored](./assets/images/NonSemantic_HTML_Before_Refactor.png)
+
+
+Example of HTML tags after code refactor: 
+![Semantic HTML after code was refactored](./assets/images/Semantic_HTML_After_Refactor.png)
+
+
+2. Text
+3. Comments were added to both the index.html and style.css files to help future developers better understand the structure of the files and how the elements referenced within each are used.
 
 ## Location
 Use the following link to access the company's refactored website: [Horiseon Homepage](https://larrygjenkins.github.io/HoriseonRefactor/)
