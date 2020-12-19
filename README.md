@@ -14,18 +14,20 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
 
 **Example of HTML tags before code refactor:** 
 ...
-<div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
-        </div>
+
+    <div class="content">
+            <div class="search-engine-optimization">
+                <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                </p>
+            </div>
 ...
 
 **Example of HTML tags after code refactor:** 
 ...
+
         <section class="content">
             <article id="search-engine-optimization" class="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A photo of a laptop, a cup of coffee, colored pencils, and a notebook with SEO ideas." />
