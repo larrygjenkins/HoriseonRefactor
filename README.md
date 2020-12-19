@@ -12,6 +12,14 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
 ## Solution
 
 
+## Example Image
+Following is an image of the Horiseon's homepage. 
+
+## Location
+Use the following link to access the company's refactored website. 
+
+
+
 what
 why
 how
