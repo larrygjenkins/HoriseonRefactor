@@ -12,15 +12,20 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
 ## Solution
 1. Text
 
-Example of HTML tags before code refactor: 
-![Non-Semantic HTML before code was refactored](./assets/images/NonSemantic_HTML_Before_Refactor.png)
-
-
-Example of HTML tags after code refactor: 
-![Semantic HTML after code was refactored](./assets/images/Semantic_HTML_After_Refactor.png)
-
+**Example of HTML tags before code refactor:** 
 ...
-<!-- This section contains the primarly articles on the page, which appear on the left side of the page.  -->
+<div class="content">
+        <div class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </div>
+...
+
+**Example of HTML tags after code refactor:** 
+...
         <section class="content">
             <article id="search-engine-optimization" class="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A photo of a laptop, a cup of coffee, colored pencils, and a notebook with SEO ideas." />
@@ -28,6 +33,7 @@ Example of HTML tags after code refactor:
                 <p>
                     The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
                 </p>
+            </article>
 ...
 
 2. Text
