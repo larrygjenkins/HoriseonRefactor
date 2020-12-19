@@ -20,10 +20,12 @@ body {
 	font-size: 48px;
 }
 
+/* This element controls the color difference for SEO in the Horiseon company name.  */
 .header h1 .seo {
 	color: #d9dcd6;
 }
 
+/* The next three elements control the appearance of the navigation elements within the page header.  */
 .header nav {
 	padding-top: 15px;
 	margin-right: 20px;
@@ -50,6 +52,7 @@ p {
 	font-size: 16px;
 }
 
+/* This element controls the size and appearance of the dominant 'hero' image at the top of the page.  */
 .hero {
 	height: 800px;
 	width: 100%;
@@ -128,6 +131,7 @@ p {
 	max-width: 150px;
 }
 
+/* These attributes control the styling of the footer at the bottom of the page.  */
 .footer {
 	padding: 30px;
 	clear: both;
