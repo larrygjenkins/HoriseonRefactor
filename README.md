@@ -13,7 +13,6 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
 1. Text
 
 **Example of HTML tags before code refactor:** 
-...
 
     <div class="content">
             <div class="search-engine-optimization">
@@ -23,10 +22,9 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
                     The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
                 </p>
             </div>
-...
 
 **Example of HTML tags after code refactor:** 
-...
+
 
         <section class="content">
             <article id="search-engine-optimization" class="search-engine-optimization">
@@ -36,7 +34,6 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
                     The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
                 </p>
             </article>
-...
 
 2. Text
 3. Comments were added to both the index.html and style.css files to help future developers better understand the structure of the files and how the elements referenced within each are used.
