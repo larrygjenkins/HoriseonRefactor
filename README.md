@@ -36,8 +36,10 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
             </article>
 
 2. The style.css file was reorganized so the elements presented there follow the same organizational flow of the index.html file. 
-3. Whenever possible, element selectors within the style.css file were consolidated to produce a more concise stylesheet. 
+3. Whenever possible, element selectors within the style.css file were consolidated to produce a more concise stylesheet.
+
 **Example of CSS element selectors before code refactor:** 
+
     .search-engine-optimization h2 {
         margin-bottom: 20px;
         font-size: 36px;
@@ -52,11 +54,14 @@ Horiseon, a marketing agency, wants a codebase that follows accessibility standa
         margin-bottom: 20px;
         font-size: 36px;
     }
+
 **Example of consolidated CSS element selector after code refactor:**
+
     .content h2 {
         margin-bottom: 20px;
         font-size: 36px;
     }
+    
 4. Text
 3. Comments were added to both the index.html and style.css files to help future developers better understand the structure of the files and how the elements referenced within each are used.
 
